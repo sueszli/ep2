@@ -1,0 +1,43 @@
+Multiple-Choice-Aufgabe (maximal 25 Punkte):
+
+    Beantworten Sie die Multiple-Choice-Fragen in der Klasse 'MCTest'.
+
+    Bitte lassen Sie folgende Klassen unverändert: 'MCQuestion', 'Choice' und 'CheckMCTest'.
+    In 'CheckMCTest' finden Sie die gleichen Fragen und Antwortmöglichkeiten wie in 'MCTest'.
+    Wenn Sie 'MCTest' ausführen, bekommen Sie eine Fehlermeldung falls inhaltlich relevante
+    Textteile verändert wurden; ohne Fehler werden Ihre Antworten auf die Fragen aufgelistet.
+
+
+Praxisaufgabe (maximal 75 Punkte):
+
+    Vervollständigen Sie die Klassen 'Camel' und 'Caravan' bitte wie in den Kommentaren
+    beschrieben an den mit TODO gekennzeichneten Stellen.
+    Verändern Sie aber keine vorgegebenen Methodenköpfe oder andere vorgegebene Programmteile.
+
+    Die Klasse 'PraxisApplication' enthält Testfälle mit Sollausgaben als Kommentare.
+    Neben diesen Testfällen müssen auch alle Kommentare in den gefragten Klassen zutreffen.
+
+    Es ist erlaubt, weitere Klassen zu erstellen und oben genannte Klassen zu erweitern.
+
+    Auch für teilweise korrekte Lösungen werden Punkte vergeben.
+
+    Bitte lassen Sie die Dateien 'Camel.bak', 'Caravan.bak' und 'PraxisApplication.bak'
+    unverändert. Diese Dateien enthalten Kopien der entsprechenden .java-Dateien um bei Bedarf
+    verloren gegangene Textteile wiederherstellen zu können.
+
+    Punkte (in Summe maximal 75):
+
+        55 Punkte für die Klasse 'Caravan':
+
+            40 Punkte für die Implementierung einer verketteten Liste zum
+            Speichern meherer Kamele (Objekte der Klasse 'Camel').
+
+            15 Punkte für die korrekte Funktionalität (unabhängig von der Implementierung).
+
+            Hinweis: Wird statt einer eigenen Implementierung der verketteten Liste eine vorgefertigte
+            Java-Collection-Klasse oder ein Array genutzt, können für die Klasse 'Caravan'
+            maximal 15 Punkte erreicht werden.
+
+        20 Punkte für die Klasse 'Camel'.
+
+        Die Klasse 'PraxisApplication' fließt nicht in die Beurteilung ein.

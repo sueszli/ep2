@@ -1,0 +1,44 @@
+// This class represents monomials of the form a*x^d ("a mal x hoch d"), where
+// 'a' is the coefficient of the monomial and 'd' is the degree.
+//
+public class Monomial {
+
+    // TODO: declare variables.
+
+    // A constructor with the coefficient 'coeff' and the 'degree' of this monomial.
+    public Monomial(int coeff, int degree) {
+        // TODO: implement this constructor.
+    }
+
+    // Returns the product of 'this' and 'm'. The product is obtained by
+    // multiplying the two coefficients and adding the two exponents.
+    // 'this' and 'm' are not affected by calling this method.
+    public Monomial mult(Monomial m) {
+        // TODO: implement this method.
+        return null;
+    }
+
+    // Returns the coefficient of this monomial.
+    public int getCoeff() {
+        // TODO: implement this method.
+        return 0;
+    }
+
+    // Returns the degree of this monomial.
+    public int getDegree() {
+        // TODO: implement this method.
+        return 0;
+    }
+
+    // Returns a representation in mathematical notation, e.g. of the form "5*x^2".
+    public String toString() {
+        // TODO: implement this method.
+        return "";
+    }
+
+
+}
+
+
+
+

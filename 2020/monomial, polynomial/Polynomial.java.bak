@@ -1,0 +1,44 @@
+// A polynomial is a sum of multiple monomials , such as 3*x^1 + -1*x^2 + 1*x^5.
+// 'Polynomial' uses a sorted linked list to store its monomials.
+// A specific degree exists at most once in the polynomial.
+/* TODO: define further classes for the implementation of the sorted linked list, if needed.
+    Do not use java platform sorting methods.
+ */
+public class Polynomial {
+
+    // TODO: declare variables.
+
+    // Adds the monomial 'm' to this polynomial.
+    // If the polynomial already has a monomial of the same degree, the corresponding monomial
+    // is replaced by its sum with 'm' (which is a new Monomial of the same degree and a
+    // coefficient corresponding to the sum of the coefficients).
+    public void add(Monomial m) {
+
+        // TODO: implement this method.
+
+    }
+
+    // Returns a new polynomial which is the product of 'this' and 'm', i.e. in which
+    // each monomial of 'this' has been multiplied by 'm'. Calling this method does not
+    // affect 'this'.
+    public Polynomial mult(Monomial m) {
+
+        // TODO: implement this method.
+        return null;
+
+    }
+
+    // Returns a polynomial representation in mathematical notation such as
+    // "2*x^0 + 6*x^2 + -2*x^3", where monomials are ordered ascending according to
+    // their degree. Note that a positive sign of the leftmost coefficient is
+    // not shown.
+    // Returns the string "0" if the polynomial has no monomials (is empty).
+    public String toString() {
+
+        // TODO: implement this method without using java platform sorting methods.
+        return "";
+
+    }
+
+}
+

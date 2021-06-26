@@ -1,0 +1,15 @@
+
+// This class represents celestial bodies like stars, planets, asteroids, etc..
+public class CelestialBody {
+
+    // TODO: define missing parts of the class
+
+    // Initializes 'this' with name and mass.
+    // Precondition: name != null.
+    public CelestialBody(String name, double mass) {
+        // TODO: implement constructor.
+
+    }
+
+}
+

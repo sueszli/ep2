@@ -1,0 +1,65 @@
+// This class represents a caravan of camels. Objects of type 'Camel' are stored in a linked list.
+// TODO: define further classes for the implementation of the linked list, if needed (either in this file
+//  or in separate files)
+//
+public class Caravan {
+
+    // TODO: declare variables
+
+
+    // Returns a new caravan with the camels of 'camels', if it is not empty.
+    // Returns 'null' if either 'camels' is 'null' or if camels.length == 0
+    // or if all entries of 'camels' are 'null'.
+    // Ignores 'null'-entries of 'camels'. There is no specified order.
+    public static Caravan create(Camel[] camels) {
+        // TODO: implement this method
+        return null;
+    }
+
+    // Initializes this caravan with the camels of 'camels'.
+    // This constructor is only called within the class 'Caravan'.
+    private Caravan(Camel[] camels) {
+        // TODO: implement this constructor
+    }
+
+    // Adds 'camel' as the last camel to this caravan.
+    // Precondition: 'camel' is not 'null'.
+    public void addLast(Camel camel) {
+        // TODO: implement this method
+    }
+
+    // Inserts 'camel' in the caravan right after the first camel (seen from the head
+    // of the caravan) with a pace equal to 'searchPace'. Adds 'camel' as the head
+    // of this caravan, if there is no such camel.
+    // Precondition: 'camel' is not 'null' (needs not be checked).
+    public void addAfter(int searchPace, Camel camel) {
+        // TODO: implement this method
+    }
+
+    // Returns the pace of this caravan, which is the pace of the
+    // slowest camel of this caravan.
+    public int pace() {
+        // TODO: implement this method
+        return 0;
+    }
+
+    // Adds one unit of load to the camel of this caravan, which
+    // has the fastest pace (such that the likelihood of slowing
+    // down the caravan by the additional load is minimized).
+    // If there is more than one such camel, the one which
+    // is closest to the head of the caravan takes the load.
+    public void addUnitLoad() {
+        // TODO: implement this method
+    }
+
+    // Returns a representation of this caravan with all its camels in brackets
+    // in corresponding order with head of the caravan on the left,
+    // followed by the pace of the caravan.
+    // Example: [1 (3) 2 - 1 (5) 4 - 2 (5) 3], pace: 1
+    // Returns "[]" if the caravan is empty.
+    public String toString() {
+        // TODO: implement this method
+        return "";
+    }
+}
+

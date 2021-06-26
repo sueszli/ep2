@@ -1,0 +1,32 @@
+// This class can be modified and is for testing your solution.
+// Modifications will NOT be reviewed or assessed.
+//
+public class PraxisApplicationTest1 {
+
+    public static void main(String[] args) {
+
+        Monomial m = new Monomial(3,2);
+        System.out.println(m); // 3*x^2
+
+        System.out.println(m.mult(new Monomial(-1,2))); // -3*x^4
+        System.out.println(m); // 3*x^2
+
+
+        Polynomial p1 = new Polynomial();
+        p1.add(m);
+        p1.add(m);
+        System.out.println(p1); // 6*x^2
+
+        p1.add(new Monomial(-1,0));
+        p1.add(new Monomial(5,3));
+        Polynomial p2 = p1.mult(new Monomial(-2, 0));
+
+        System.out.println(p1); // -1*x^0 + 6*x^2 + 5*x^3
+        System.out.println(p2); // 2*x^0 + -12*x^2 + -10*x^3
+
+        p2 = p1.mult(new Monomial(-2, 2));
+        System.out.println(p2); // 2*x^2 + -12*x^4 + -10*x^5
+
+    }
+}
+
