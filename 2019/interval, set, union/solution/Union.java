@@ -6,9 +6,8 @@ public class Union implements Set {
     ArrayList<Interval> list = new ArrayList<>();
 
     public Union(Interval a, Interval b) {
-        if (a.isConnected(b)) list.add((Interval) a.union(b));
-        list.add(a);
-        list.add(b);
+        if (a.isConnected(b)) { list.add((Interval) a.union(b)); }
+        else { list.add(a); list.add(b); }
     }
 
     // Helper method: Removes all intervals from this 'Union' which are connected to 'other'
