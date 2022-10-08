@@ -4,4 +4,4 @@ My solutions to all previous exams from the [Introduction to Programming 2](http
 
 Every single solution has been optimized and the maximum amount of points were achieved in the most recent exam through the given solution.
 
-`License`: I do not own any of these exercises - I'm just providing the solutions. If you own the copyright to the initial / unedited files, please do not hesitate to contact me immediately if you do not want these documents to be publicly available. Thanks.
+`License`: I do not own any of these exercises - I'm just providing the solutions. If you own the copyright to the initial / unedited files and want me to take them down or give you credit for providing them, please do not hesitate to contact me. Thanks.
